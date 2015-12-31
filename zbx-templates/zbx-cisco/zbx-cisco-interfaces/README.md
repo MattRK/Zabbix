@@ -53,7 +53,7 @@ Installation
 1. Install [`if.speed`](https://github.com/jjmartres/Zabbix/tree/master/zbx-scripts/if.speed) in the **ExternalScripts** directory of your Zabbix server and/or proxy. Check your `zabbix_server.conf` and/or `zabbix_proxy.conf` if in doubt.
 2. Then `chmod a+x if.speed`
 3. Add a value mapping named `ciscoCudldpInterfaceOperStatus` with the following values:
-  * 1 => shutdwon
+  * 1 => shutdown
   * 2 => indeterminant
   * 3 => biDirectional
   * 4 => notApplicable
